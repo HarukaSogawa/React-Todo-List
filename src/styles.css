@@ -14,7 +14,7 @@ button {
   padding: 4px 16px;
   background-color: #eee;
 }
-button:hover {
+button:not(:disabled):hover {
   background-color: #ff7fff;
   color: #fff;
   cursor: pointer;
